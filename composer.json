@@ -1,0 +1,31 @@
+{
+    "name": "ilya.mikhailov/autostorage",
+    "description": "REST API autostorage app on ReactPHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ilya.mikhailov",
+            "email": "ilya.mikhailov@ottoruss.ru"
+        }
+    ],
+    "require": {
+        "react/event-loop": "^1.2",
+        "react/http": "^1.6",
+        "voryx/pgasync": "^2.0",
+        "willdurand/hateoas": "^3.8",
+        "vlucas/phpdotenv": "^5.4",
+        "respect/validation": "^2.2",
+        "firebase/php-jwt": "^6.0",
+        "nikic/fast-route": "^1.3"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"src"
+        }
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.4",
+        "phpunit/phpunit": "^9.5"
+    }
+}
